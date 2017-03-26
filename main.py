@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class State:
    def __init__(self, name, state):
       self.name = name
@@ -8,10 +8,6 @@ class State:
    def getsState(self):
       return self.state
 
-=======
-def main():
-  print("Hi!")
->>>>>>> master
 
 def main():
    machine = State("Machine", 1)
