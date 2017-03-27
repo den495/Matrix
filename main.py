@@ -11,7 +11,7 @@ class State:
 
 def main():
   machine = State("Machine", 1)
-  print(machine.getState())
+  print(machine.getName()) 
 
 
 if __name__ == "__main__":
